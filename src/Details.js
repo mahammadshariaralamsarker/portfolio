@@ -43,10 +43,11 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkdein: "https://www.linkedin.com/in/mahammad-shariar-alam-sarker-istian/",
+  github: "https://github.com/mahammadshariaralamsarker?tab=repositories",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
+  facebook: "https://www.facebook.com/profile.php?id=100087931313836",
 };
 
 // Enter your Work Experience here

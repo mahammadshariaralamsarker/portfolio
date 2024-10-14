@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import { logos, socialMediaUrl } from "../Details";
 // import { FontAwesomeIconx,faFacebook } from "@fortawesome/react-fontawesome";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { linkdein, github, twitter } = socialMediaUrl;
+  const { linkdein, github, twitter,facebook } = socialMediaUrl;
 
   const toggleClass = () => {
     setIsOpen(!isOpen);
@@ -88,9 +88,9 @@ function Header() {
           </li>
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
-          <li>
-            <a className="text-blue-600" href={twitter} target="_blank" rel="noreferrer noopener">
-            <FontAwesomeIcon icon={faTwitter} />
+        <li>
+            <a href={github} className="text-white" target="_blank" rel="noreferrer noopener">
+            <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
           <li>
@@ -99,8 +99,13 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href={github} className="text-white" target="_blank" rel="noreferrer noopener">
-            <FontAwesomeIcon icon={faGithub} />
+            <a href={facebook} className="text-white" target="_blank" rel="noreferrer noopener">
+            <FontAwesomeIcon icon={faFacebook} />
+            </a>
+          </li>
+          <li>
+            <a className="text-blue-400" href={twitter} target="_blank" rel="noreferrer noopener">
+            <FontAwesomeIcon icon={faTwitter} />
             </a>
           </li>
         </ul>
