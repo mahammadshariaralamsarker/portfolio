@@ -84,7 +84,7 @@ export const eduDetails = [
     Duration: "Jan 2022 - Present",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
+    Position: "Bachelor in Computer Science and Engineering", 
     Company: `Your College Name here`,
     Location: "Bengaluru",
     Type: "Full Time",
@@ -116,7 +116,7 @@ export const projectDetails = [
     title: "Project title 1",
     image: projectImage1,
     description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
