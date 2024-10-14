@@ -35,7 +35,7 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
+  name: "Mahammad Shariar Alam Sarker",
   tagline: "I build things for web",
   img: profile,
   about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
@@ -72,23 +72,30 @@ export const workDetails = [
     Type: "Internship",
     Duration: "Sep 2021 - Dec 2021",
   },
+  {
+    Position: "Internship",
+    Company: `Company Name here`,
+    Location: "Bengaluru",
+    Type: "Internship",
+    Duration: "Sep 2021 - Dec 2021",
+  },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
     Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
+    Company: "Programming Hero ",
     Location: "Online",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Jan 2024 - Present",
   },
   {
     Position: "Bachelor in Computer Science and Engineering", 
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Company: `Institude of Science and Technology`,
+    Location: "Dhaka",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Aug 2022 - Present",
   },
 ];
 
